@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat',sans-serif;
+    overflow-x: hidden;
+}
+/*================================MENU=======================*/
+
+.icons-whatsapp{
+    color: greenyellow;
+}
+.icons-instagram{
+    color:#C13584;
+}
+
+
+.colorP{
+    color:#edb06d !important;
+}
+.navbar-center{
+    box-shadow: 0px 10px 10px -15px black;
+    margin-bottom:5px;
+}
+
+.nav-link:hover{
+    color: #edb06d !important;
+}
+#menu li > a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form > button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*================================LOGO
+=======================*/
+.contLogo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    background:  #060606;
+    margin-bottom: 10px;
+}
+.imgLogo{
+
+    width:300px;
+    height:300px; 
+}
+
+
+/*================================SLIDER DE 
+IMAGENES=======================*/
+
+
+.carousel-inner {
+    max-height: 28rem;
+
+}
+
+#img{
+    object-fit: scale-down;
+    height: 500px;
+    width: auto;
+}
+
+
+
+/*================================SOBRE NOSOTROS
+IMAGEN=======================*/
+.colorSpanNosotros{
+    color:#edb06d;
+}
+
+.icons-stars{
+    color:#edb06d;
+    
+}
+
+#imgServicios{
+    border-radius: 7px;
+}
+/*================================SECCION NOSOTROS MAPA
+IMAGEN=======================*/
+
+
+#local{
+    background: #f3f3f3;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 150px;
+}
+/*================================Footer=======================*/
+footer{
+    background-color: #060606;
+    min-height: 100px;
+
+}
+
+footer p{
+    color: #f7f7f7;
+    text-align: center;
+}
+
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+}
+
+/*================================MEDIA QUERIES PANTALLA 
+EXTRA -SM=======================*/
+
+@media(max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+
+
+
+/*================================MEDIA QUERIES PANTALLA 
+SM=======================*/
+
+
+@media (max-width:768px){
+    #intro, #equipo{
+        width: 90% !important;
+        
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+
+    /* #equipo{
+        display: none;
+    } */
+}
+
+
+
+/*================================MEDIA QUERIES PANTALLA 
+SM=======================*/
+
+@media (max-width:1200px) {
+    #local {
+        flex-wrap: wrap;
+        padding-top: 40px;
+    }
+    .wrapper{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+}
+
+@media (min-width:1200px) {
+    #local {
+        flex-wrap: wrap;
+        padding-top: 40px;
+    }
+    .wrapper{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .mapa{
+        display: flex;
+        justify-content: center;    
+    }
+    #text-description{
+        font-size:30px !important;
+    }
+}
+
